@@ -1,0 +1,262 @@
+@font-face {
+    font-family: 'cocogoose';
+    src: url(./Font/Cocogoose-Pro-Light-trial.ttf) format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MilkyNice';
+    src: url(./Font/MilkyNice-Clean.ttf) format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 {
+    font-family: 'MilkyNice';
+    font-size: 50px;
+}
+
+h3.typing {
+    font-family: 'MilkyNice';
+    color: #6d91d4;
+}
+
+.mainBackground {
+    background-image: url(./img/BgAwal1.jpg);
+    background-size: 180vh;
+}
+
+.navbar.sticky-top.navbar-expend-lg.navbar-dark{
+    background-image: url(./img/BgAwal1.jpg);
+    background-size: cover;
+}
+
+.navbar.sticky-top.navbar-expend-lg.navbar-dark {
+    background-color: transparent;
+    position: top;
+}
+
+a.nav-link {
+    color: #395886;
+    font-family: 'cocogoose';
+    font-weight: bold;
+    font-size: 13px;
+}
+
+a.nav-link:hover{
+    color: #638ecb;
+}
+
+.about.row.align-items-left {
+    padding-top: 2%;
+}
+
+section.about.py-5 .col-md-6.text-right{
+    padding-top: 14%;
+}
+
+p.lead {
+    font-family: 'cocogoose';
+    font-size: 13px;
+    color: #395886;
+}
+
+ h2.skills.text-center {
+    font-family: 'MilkyNice';
+    font-size: 40px;
+    color: #395886;
+    padding-top: 5%;
+ }
+
+ h5.card-title.text-center {
+    font-family: 'cocogoose';
+    font-size: 15px;
+    color: #395886;
+    font-weight: bolder;
+ }
+
+ h2.Project.text-left {
+    font-family: 'MilkyNice';
+    font-size: 40px;
+    color: #395886;
+ }
+
+ .card-title.text-left {
+    font-family: 'cocogoose';
+    color:#395886;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 12px;
+    margin-bottom: 6px;
+ }
+
+ div.card p.text-left {
+    font-family: 'cocogoose';
+    font-size: 11px;
+    color: #395886;
+ }
+
+ h2.Contact.text-left {
+    font-family: 'MilkyNice';
+    font-size: 40px;
+    color: #f0f3fa;
+ }
+
+ a.contactMe {
+    font-family: 'cocogoose';
+    color: #f0f3fa;
+ }
+
+.Logo {
+    width: 80px; 
+    height: 60px
+}
+
+header {
+    height: 760px;
+}
+
+header .row.align-items-center {
+    align-content: center; 
+    padding-top: 3%;
+    color: #395886;
+}
+
+header .col-md-6.text-right .img-fluid {
+    width: 400px; 
+    height: 400px;
+}
+
+section {
+    height: 770px;
+}
+
+section .row.align-items-center {
+    align-content: center; 
+    padding-top: 12%;
+}
+
+.about.py-5 {
+    background-color: #dceaf9;
+}
+
+section.skill.py-5 {
+    height: 730px;
+    background-color: #dceaf9;
+}
+
+section.about.py-5 .container {
+    padding-top: 4%;
+}
+
+section .col-md-6.text-center .img-fluid {
+    width: 450px; 
+    height: 670px;
+}
+
+section.skill.py-5 img.card-img-top.rounded-circle{
+    width: 200px;
+    height: 200px;
+}
+
+section.skill.py-5 div.skills.card-body {
+    padding-bottom: 30px;
+}
+
+section.skill.py-5 div.skills.card-body .card-title.text-center {
+    color: #395886;
+    font-family: 'cocogoose';
+    font-size: 20px;
+}
+
+section.skill.py-5 div.skills.card-body .text-center {
+    color: #395886;
+    font-family: 'cocogoose';
+    font-size: 13px;
+}
+
+.projects.row.align-items-center {
+    padding-top: 50px;
+}
+
+div.col-md-6.text-right .head.text-left {
+    font-family: 'MilkyNice';
+    color: #395886;
+    font-size: 40px;
+}
+
+div.col-md-6.text-right .about.text-left {
+    font-family: 'cocogoose';
+    color: #395886;
+    font-size: 15px;
+}
+
+.card {
+    border-radius: 15px;
+}
+
+.col-md-4.project-item{
+    padding-bottom: 20px;
+}
+
+.img-project {
+    text-align: center;
+    border-radius: 10px;
+    width: 200px;
+    height: 300px;
+}
+
+section.py-5.bg-light .container {
+    padding-top: 4%;
+}
+
+/* div.skills.row.text-center {
+    padding-top: 2%;
+} */
+
+div.py-5.contact{
+    height: 390px;
+    background-color: #638ecb;
+} 
+
+div .container{
+    padding-top: 2%;
+}
+
+svg.wavy1 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+svg.wavy2 {
+    position: absolute;
+    left: 0;
+}
+
+footer.text-white.text-center.py-3 {
+    background-color: #638ecb;
+}
+
+.foot.text-left {
+    font-family: 'cocogoose';
+    color: #dceaf9;
+    font-size: 12px;
+}
+
+.hidden-on-scroll {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.9s ease, transform 0.9s ease;
+}
+
+.hidden-on-scroll.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
